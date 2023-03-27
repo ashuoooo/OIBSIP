@@ -1,0 +1,231 @@
+/* General Styles */
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	font-family: 'Kaushan Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	background-color: #005799;
+	color: #fff;
+
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin: 0;
+}
+
+h1{
+	color: #fff;
+}
+
+P{
+	text-align: justify;
+
+}
+
+a {
+	color: red;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    padding-left: 20%;
+	
+}
+
+/* Header Styles */
+
+header {
+	background-color: #becc00;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav a:hover {
+	color: #eee;
+}
+
+/* Main Content Styles */
+
+main {
+	margin: 20px;
+	
+}
+
+.intros{
+	background-image: img("C:\Users\hp\Downloads\download1.jpg");
+	background-image: url("http://i.stack.imgur.com/spmUM.gif");
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+
+}
+
+#intro{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+#about{
+
+    padding: 3%;
+	
+}
+
+.profilephoto{
+	width:350px;
+    height: auto;
+	float: right;
+
+}
+
+section {
+	margin-bottom: 30px;
+
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+.portfolio-item {
+	border: #fff;
+	padding: 130px;
+	margin-bottom: 20px;
+    padding: 10%;
+
+
+}
+
+.portfolio-item img {
+	margin-bottom: 10px;
+	float: right;
+
+	
+}
+
+.portfolio-item h3 {
+	margin-top: 0;
+}
+
+.novodaya {
+	height: 250px;
+	width: auto;
+}
+
+.gayathri{
+	height:200px;
+	width: 300px;
+}
+
+.webdev{
+	width: 300px;
+	height: 250px;
+}
+.java{
+	width:300px;
+	height: 250px;
+
+}
+
+#myprojects{
+	padding: 150px;
+	text-align: center;
+}
+
+.projects{
+   text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.oasis{
+	width: 400px;
+	height: 250px;
+}
+
+/* Contact Form Styles */
+
+#contact{
+    text-align: center;
+    background-color: #d0f30a;
+}
+form label {
+	display: block;
+	margin-bottom: 5px;
+    text-align: center;
+
+
+}
+
+form input, form textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+    background-color: #eee;
+    
+
+}
+
+form input[type="submit"] {
+	background-color: #0077cc;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+    text-align: center;
+    
+
+}
+
+form input[type="submit"]:hover {
+	background-color: #005799;
+   
+}
+
+/* Footer Styles */
+
+#copyrights{
+	text-align: center;
+}
+
+footer {
+	background-color: #eee;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
